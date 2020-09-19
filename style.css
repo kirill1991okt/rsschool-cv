@@ -45,6 +45,8 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 main h3 {
@@ -65,10 +67,76 @@ main div {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 main p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: normal;
+  line-height: 1.4;
+}
+
+.left {
+  width: 50%;
+  padding: 0 50px;
+  border-right: solid 2px #eff0f2;
+}
+
+.information {
+  margin-bottom: 25px;
+}
+
+.skills {
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.skills ul {
+  list-style-type: disc;
+}
+
+.rigth {
+  width: 50%;
+  padding: 0 100px;
+}
+
+.work_experience {
+  margin-bottom: 25px;
+}
+
+.name_date {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.link {
+  margin-top: 15px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #727c8b;
+}
+
+.education {
+  margin-bottom: 25px;
+}
+
+.education > h3 + div {
+  margin-bottom: 15px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 200px;
 }
