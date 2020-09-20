@@ -139,6 +139,7 @@ main p {
   display: flex;
   justify-content: space-around;
   margin-bottom: 200px;
+  flex-wrap: wrap;
 }
 
 .contact a {
