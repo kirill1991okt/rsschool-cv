@@ -1,0 +1,174 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  /* background-color: #536d7526; */
+}
+
+header img {
+  margin: 55px 0 25px 0;
+  width: 240px;
+  height: 285px;
+  border-radius: 5%;
+}
+
+header h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+header h1::after {
+  content: "";
+  display: block;
+  width: 300px;
+  margin: 15px auto 0px auto;
+  border-bottom: solid 3px #eff0f2;
+}
+
+header p {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+main h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main h3::after {
+  content: "";
+  display: block;
+  width: 200px;
+  margin: 15px 0;
+  border-bottom: solid 3px #eff0f2;
+}
+
+main div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+.left {
+  width: 50%;
+  padding: 0 50px;
+  border-right: solid 2px #eff0f2;
+}
+
+.information {
+  margin-bottom: 25px;
+}
+
+.skills {
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.skills ul {
+  list-style-type: disc;
+}
+
+.rigth {
+  width: 50%;
+  padding: 0 100px;
+}
+
+.work_experience {
+  margin-bottom: 25px;
+}
+
+.name_date {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.link {
+  margin-top: 15px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #727c8b;
+}
+
+.education {
+  margin-bottom: 25px;
+}
+
+.education > h3 + div {
+  margin-bottom: 15px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 200px;
+  flex-wrap: wrap;
+}
+
+.contact a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.contact div:first-child::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.contact div:nth-child(2)::before {
+  content: "\f3cd";
+  font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.contact div:last-child::before {
+  content: "\f17e";
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  padding-right: 5px;
+  font-size: 20px;
+}
