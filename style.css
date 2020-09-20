@@ -140,3 +140,34 @@ main p {
   justify-content: space-around;
   margin-bottom: 200px;
 }
+
+.contact a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.contact div:first-child::before {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.contact div:nth-child(2)::before {
+  content: "\f3cd";
+  font-family: "Font Awesome 5 Free";
+  padding-right: 5px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.contact div:last-child::before {
+  content: "\f17e";
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  padding-right: 5px;
+  font-size: 20px;
+}
