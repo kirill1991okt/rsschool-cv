@@ -31,9 +31,13 @@ var isAnagram = function(test, original){
 ## **Experience**
 
 **Project name: Chiller Selection**
+
 **[Link](https://github.com/kirill1991okt/Chiller_Select)**
+
 **Tools & Technologies: ES6, Webpack, SCSS, Node.js**
 
 **Project name: Momentum**
+
 **[Link](https://github.com/rolling-scopes-school/kirill1991okt-JS2020Q3/tree/momentum/momentum)**
+
 **Tools & Technologies: ES6, API**
