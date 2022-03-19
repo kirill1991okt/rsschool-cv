@@ -36,7 +36,7 @@ var isAnagram = function(test, original){
 
 **Tools & Technologies: ES6, Webpack, SCSS, Node.js**
 
-=======================================================
+---
 
 **Project name: Momentum**
 
