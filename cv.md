@@ -36,8 +36,21 @@ var isAnagram = function(test, original){
 
 **Tools & Technologies: ES6, Webpack, SCSS, Node.js**
 
+=======================================================
+
 **Project name: Momentum**
 
 **[Link](https://github.com/rolling-scopes-school/kirill1991okt-JS2020Q3/tree/momentum/momentum)**
 
 **Tools & Technologies: ES6, API**
+
+## **Education**
+
+- **University:** Mogilev State University of Food Technologies, Low Temperature Engineering
+- **Courses:**
+  - **IT-Academy Education Center for Programming and High Tech:** IT-Academy, Website development with HTML, CSS & JAVASCRIPT
+  - **IT-Academy Education Center for Programming and High Tech:** JavaScript Web Application Development
+
+## **English**
+
+**Pre-Intermediate**
