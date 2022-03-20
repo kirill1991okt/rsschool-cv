@@ -1,5 +1,3 @@
-# **[rsschool-cv](https://github.com/kirill1991okt/Chiller_Select)**
-
 # **Kirill Levkevich**
 
 ## **Contacts**
