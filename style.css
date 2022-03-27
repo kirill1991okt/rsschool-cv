@@ -56,7 +56,6 @@ main {
 aside {
     float: left;
     max-width: 25%;
-    height: 900px;
     margin-left: 30px;
     z-index: 2;
     position: absolute;
@@ -82,7 +81,7 @@ aside {
 }
 
 .section-heading {
-    margin-top: 174px;
+    margin-top: 0px;
 }
 
 .section-heading p {
@@ -91,8 +90,16 @@ aside {
     text-transform: lowercase;
 }
 
+img {
+    width: 175px;
+}
+
 h2 {
     margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
 }
 
 
@@ -101,7 +108,7 @@ h2 {
     font-size: 28px;
     text-decoration: none;
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     letter-spacing: 8px;
 
 }
@@ -122,16 +129,23 @@ hr {
 }
 
 .section-heading-2 {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.languages li {
+.skills ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills li {
     display: inline-block;
     text-decoration: none;
-    padding: 20px 8px 35px 0;
+    padding: 0px 0px 5px 0;
 
 
 }
+
 
 .degree-title {
     font-size: 14px;
@@ -139,6 +153,8 @@ hr {
 
 .institution,
 .date {
+    margin-top: 5px;
+    margin-bottom: 20px;
     font-size: 12px;
 }
 
@@ -147,7 +163,7 @@ hr {
 }
 
 h2,
-.position-title {
+.project-title {
     font-family: "Comfortaa";
     text-transform: uppercase;
 }
